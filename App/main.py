@@ -41,7 +41,7 @@ app.add_middleware(
 while True:
     try :
         connection = db.connect(host='localhost',database="LogBook",user="postgres",
-        password="goodmorning003".upper(),cursor_factory=RealDictCursor,port=1234)
+        password="password006".upper(),cursor_factory=RealDictCursor,port=1234)
         cursor=connection.cursor()
         print ("Connection Was Success")
         print(fc.get_One(cursor,'12'))
